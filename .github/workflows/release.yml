@@ -1,0 +1,80 @@
+name: Release
+
+on:
+  push:
+    types: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+
+jobs:
+  release:
+    runs-on: windows-2022
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup dotnet
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Publish
+      run: |
+        dotnet publish app/GHelper.sln --configuration Release --runtime win-x64 -p:PublishSingleFile=true --no-self-contained
+
+    - name: Upload publish output
+      uses: actions/upload-artifact@v4
+      with:
+        name: publish-output
+        path: app/bin/x64/Release/net8.0-windows/win-x64/publish/
+
+  generating-sbom:
+    runs-on: ubuntu-latest
+    needs: release
+
+    steps:
+      - name: Download publish output
+        uses: actions/download-artifact@v4
+        with:
+          name: publish-output
+          path: ./publish
+
+      - name: Install Syft
+        run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
+
+      - name: Generate SBOM (CycloneDX JSON)
+        run: syft dir:./publish -o cyclonedx-json=sbom-output.json
+
+      - name: Upload SBOM
+        uses: actions/upload-artifact@v4
+        with:
+          name: sbom
+          path: sbom-output.json
+
+#    - id: sign-exe
+#      uses: signpath/github-action-submit-signing-request@v1.1
+#      with:
+#        api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
+#        organization-id: ${{ secrets.SIGNPATH_ORG_ID }}
+#        project-slug: ${{ secrets.SIGNPATH_PROJECT }}
+#        signing-policy-slug: ${{ secrets.SIGNPATH_POLICY }}
+#        github-artifact-id: ${{ steps.upload-unsigned.outputs.artifact-id }}
+#        wait-for-completion: true
+#        output-artifact-directory: './signed'
+#
+#    - name: Create ZIP from signed EXE
+#      run: powershell Compress-Archive ./signed/GHelper.exe ./signed/GHelper.zip
+#
+#    - name: Upload signed EXE and ZIP
+#      env:
+#        GH_TOKEN: ${{ github.token }}
+#      run: |
+#        gh release upload "${{ github.event.release.tag_name }}" ./signed/GHelper.exe ./signed/GHelper.zip --clobber
+#    - name: Generate SLSA build provenance attestation
+#      uses: actions/attest-build-provenance@v2
+#      with:
+#        subject-path: |
+#          ./signed/GHelper.exe
+#          ./signed/GHelper.zip
