@@ -22,7 +22,7 @@ jobs:
 
     - name: Publish
       run: |
-        dotnet publish app/GHelper.sln --configuration Release --runtime win-x64 -p:PublishSingleFile=true --no-self-contained
+        dotnet publish app/GHelper.sln --configuration Release --runtime win-x64 -p:PublishSingleFile=false --no-self-contained
 
     - name: Upload publish output
       uses: actions/upload-artifact@v4
