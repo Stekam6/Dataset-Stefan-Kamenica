@@ -52,6 +52,7 @@ jobs:
         with:
           name: sbom
           path: sbom-output.json
+          retention-days: 90
 
 #    - id: sign-exe
 #      uses: signpath/github-action-submit-signing-request@v1.1
