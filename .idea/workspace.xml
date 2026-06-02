@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5009c77a-0d28-46fa-bf2a-5c816da4e135" name="Changes" comment="Uploading g-helper project">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/g-helper-release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/Stefa/IdeaProjects/Master/Dataset-Stefan-Kamenica-Github" value="3Ea6R7clr6pKm3kTXASOeC2JM5M" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="8" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GitHub Workflow" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Stekam6&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Stekam6/Dataset-Stefan-Kamenica.git&quot;,
+    &quot;accountId&quot;: &quot;792eaaf4-1a0d-4a5a-9048-fb9c4a6bd50d&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.1505183557115064" />
+      <entry key="MS500" value="2.404564611602659" />
+      <entry key="S2" value="4.340596423214092" />
+      <entry key="S5" value="5.576879272961794" />
+      <entry key="S10" value="6.209332004866844" />
+      <entry key="S30" value="6.993904963533901" />
+      <entry key="S60" value="7.603435677138639" />
+      <entry key="M2" value="8.166839750463339" />
+      <entry key="M5" value="10.52209333983937" />
+      <entry key="M10" value="19.502676682730115" />
+      <entry key="M15" value="28.34250150038067" />
+      <entry key="M30" value="45.65804094236445" />
+      <entry key="H1" value="61.12783700800028" />
+      <entry key="H2" value="72.21860139665353" />
+      <entry key="H4" value="79.04607080587206" />
+      <entry key="D1" value="85.58511201987731" />
+      <entry key="W1" value="86.79552461681611" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.280923406030217E-213" />
+      <entry key="S5" value="6.966413750694438E-86" />
+      <entry key="S10" value="2.639396474706753E-43" />
+      <entry key="S30" value="6.41457977725652E-15" />
+      <entry key="S60" value="8.009107176993276E-8" />
+      <entry key="M2" value="2.8300366034723435E-4" />
+      <entry key="M5" value="0.03808174328643001" />
+      <entry key="M10" value="0.19514544136727863" />
+      <entry key="M15" value="0.3364384372552494" />
+      <entry key="M30" value="0.5800331346184018" />
+      <entry key="H1" value="0.761599064218439" />
+      <entry key="H2" value="0.8726964330272234" />
+      <entry key="H4" value="0.9341822268846819" />
+      <entry key="D1" value="0.9887168450244477" />
+      <entry key="W1" value="0.998380271367831" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.120051440819467" />
+      <entry key="MS500" value="2.3923356939896183" />
+      <entry key="S2" value="4.3348565939500405" />
+      <entry key="S5" value="5.573854817266294" />
+      <entry key="S10" value="6.207445816040177" />
+      <entry key="S30" value="6.989978234338738" />
+      <entry key="S60" value="7.598650631385165" />
+      <entry key="M2" value="8.163282085369604" />
+      <entry key="M5" value="10.557722551793741" />
+      <entry key="M10" value="19.695645359636845" />
+      <entry key="M15" value="28.676929803316806" />
+      <entry key="M30" value="46.2365359379335" />
+      <entry key="H1" value="61.88842803109821" />
+      <entry key="H2" value="73.09070753047939" />
+      <entry key="H4" value="79.97993123955592" />
+      <entry key="D1" value="86.57377097369553" />
+      <entry key="W1" value="87.79389650533194" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Ea6R7clr6pKm3kTXASOeC2JM5M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "UniTask",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Stefa/IdeaProjects/Master/Dataset-Stefan-Kamenica-Github",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefa\IdeaProjects\Master\Dataset-Stefan-Kamenica-Github" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5009c77a-0d28-46fa-bf2a-5c816da4e135" name="Changes" comment="" />
+      <created>1780404321327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780404321327</updated>
+      <workItem from="1780404322365" duration="3106000" />
+    </task>
+    <task id="LOCAL-00001" summary="Uploading g-helper project">
+      <option name="closed" value="true" />
+      <created>1780407620801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780407620801</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Uploading g-helper project">
+      <option name="closed" value="true" />
+      <created>1780407765600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780407765600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uploading g-helper project" />
+    <MESSAGE value="Uploading central g-helper .yml file for manual triggering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading central g-helper .yml file for manual triggering" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+name: "Close stale issues"
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  stale:
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+    uses: Cysharp/Actions/.github/workflows/stale-issue.yaml@main
