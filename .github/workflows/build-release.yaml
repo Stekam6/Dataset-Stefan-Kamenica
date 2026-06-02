@@ -1,6 +1,7 @@
 name: build-release
 
 on:
+  workflow_dispatch:
     inputs:
       tag:
         description: "tag: git tag you want create. (sample 1.0.0)"
