@@ -1,7 +1,8 @@
-name: Release
+name: g-helper Release
 
 on:
   push:
+    branches: [g-helper]
   workflow_dispatch:
 
 permissions:
