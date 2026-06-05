@@ -1,4 +1,4 @@
-name: "Tests of validate package"
+name: "Public-Apis-Tests of validate package"
 
 on:
   push:
