@@ -1,9 +1,0 @@
-name: AutoMapper-CI
-on:
-  workflow_dispatch:
-
-jobs:
-  noop:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Please trigger in AutoMapper branch."

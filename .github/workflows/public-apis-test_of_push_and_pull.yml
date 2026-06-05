@@ -1,9 +1,0 @@
-name: "public-apis-Tests of push & pull"
-on:
-  workflow_dispatch:
-
-jobs:
-  noop:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Please trigger in public-apis branch."
