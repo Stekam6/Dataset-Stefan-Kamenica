@@ -1,4 +1,4 @@
-name: "Public-Apis-Tests of validate package"
+name: "public-apis-Tests of push & pull"
 on:
   workflow_dispatch:
 
